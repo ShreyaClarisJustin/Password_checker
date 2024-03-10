@@ -17,7 +17,7 @@ with open('common.txt','r') as f:
     common=f.read().splitlines()
 
 if password in common:
-    print("pswd was found in common list.score 0/7\nenter another password")
+    print("pswd was found in common list.score 0/7\ntry again")
     exit()
 
 if length>0:
